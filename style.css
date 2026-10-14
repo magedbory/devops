@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-color: #5dbf02;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.logo {
+  width: 70px;
+}
+.header-links a {
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.header-links a:hover {
+  background-color: #76f103;
+}
+.btn {
+  background-color: #025dbf;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+}
+.btn:hover {
+  background-color: #1182fd;
+}
+
+.landing-page {
+  background-color: #5dbf02;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  color: white;
+  border-radius: 0px 0px 5px 50px;
+}
+
+
+.landing-page-search input {
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  border-color: 025dbf;
+  color: black;
+  padding: 0px 15px;
+  height: 30px;
+
+}
+.landing-page-search button{
+    position: absolute;
+    left: 200px;
+    height: 30px;
+
+}
+
+.landing-page-image-contaner img {
+    border-radius: 20px;
+    width: 250px;
+    
+
+}
+.landing-page-left-section{
+    width: 500px;
+}
