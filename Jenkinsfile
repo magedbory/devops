@@ -7,8 +7,8 @@ pipeline {
 
     environment {
         // !!! REPLACE YOUR_USERNAME WITH YOUR ACTUAL WINDOWS USERNAME !!!
-        DOCKER_BIN = 'C:\\Users\\YOUR_USERNAME\\AppData\\Local\\Programs\\DockerDesktop\\version-bin'
-        DOCKER_EXE = '"C:\\Users\\YOUR_USERNAME\\AppData\\Local\\Programs\\DockerDesktop\\version-bin\\docker.exe"'
+        DOCKER_BIN = 'C:\\Users\\eng.maged\\AppData\\Local\\Programs\\DockerDesktop\\version-bin'
+        DOCKER_EXE = '"C:\\Users\\eng.maged\\AppData\\Local\\Programs\\DockerDesktop\\version-bin\\docker.exe"'
         
         IMAGE_NAME = 'devops-test'
         CONTAINER_NAME = 'web-test'
