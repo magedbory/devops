@@ -38,7 +38,7 @@ pipeline {
                 bat """
                     set PATH=%DOCKER_BIN%;%PATH%
                     %DOCKER_EXE% rm -f "%CONTAINER_NAME%" || echo "No existing container to remove."
-                    %DOCKER_EXE% run -d --name "%CONTAINER_NAME%" --restart unless-stopped -p 8080:80 "%IMAGE_NAME%:%BUILD_NUMBER%"
+                    %DOCKER_EXE% run -d --name "%CONTAINER_NAME%" --restart unless-stopped -p 8060:80 "%IMAGE_NAME%:%BUILD_NUMBER%"
                 """
             }
         }
