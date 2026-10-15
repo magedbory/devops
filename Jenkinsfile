@@ -48,7 +48,7 @@ pipeline {
                 // Windows batch uses 'timeout' instead of 'sleep', and 'curl' commands look cleaner without linux-style slashes.
                 bat '''
                     timeout /t 2 /nobreak
-                    curl --fail --silent --show-error http://127.0.0.1:8080 
+                    curl --fail --silent --show-error http://127.0.0.1:8060 
                     echo "Application is responding on port 80."
                 '''
             }
