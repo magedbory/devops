@@ -10,8 +10,8 @@ pipeline {
         DOCKER_BIN = '"C:\\Users\\Eng.Maged\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin"'
         DOCKER_EXE = '"C:\\Users\\Eng.Maged\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe"'
         
-        IMAGE_NAME = 'devops-test'
-        CONTAINER_NAME = 'web-test'
+        IMAGE_NAME = 'imageDevOpsTest'
+        CONTAINER_NAME = 'DevopsTestContainer'
     }
 
     stages {
